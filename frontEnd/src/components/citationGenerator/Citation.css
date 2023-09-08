@@ -1,0 +1,8 @@
+.uC a{
+font-size:20px;
+color:rgb(83, 83, 186);
+text-decoration: underline;
+}
+.uC a:hover{
+    color:rgb(2, 2, 125)
+}

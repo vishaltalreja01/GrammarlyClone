@@ -1,0 +1,133 @@
+.main-div {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .heading {
+    color: #333;
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .upgrade-btn {
+    background-color: rgb(26, 87, 79);
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  
+/* 
+  .img2{
+    margin-left: 100px;
+  } */
+
+  .communication-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  /* h2 {
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 48px;
+  }
+
+  p {
+    margin-bottom: 20px;
+    font-size: 24px;
+  } */
+
+  .content-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
+  .leftdiv,
+  .rightdiv {
+    width: 45%;
+    padding: 20px;
+    box-sizing: border-box;
+   
+    /* border: 1px solid #ccc; */
+    margin-bottom: 50px;
+  }
+
+  .leftdiv h3,
+  .rightdiv h3,
+  .leftdiv h4,
+  .rightdiv h4 {
+    text-align: left;
+    margin-bottom: 10px;
+  }
+
+  .leftdiv ul,
+  .rightdiv ul {
+    text-align: left;
+    padding-left: 20px;
+    margin-bottom: 0;
+  }
+
+  .premium-btnn{
+    margin-top: 10px;
+    background-color: #193827;
+    color: white;
+  }
+  .upgrade-btn {
+    margin-top: 10px;
+    background-color: #193827;
+    color: white;
+  }
+
+
+  .section-container {
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    color: #0e101a;
+    font-family: Inter, sans-serif;
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    -webkit-box-align: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-pack: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 492px;
+    background: no-repeat left -500px bottom -90px url('https://static.grammarly.com/assets/files/7704056c286a7b6b242f7f6839113502/swoosh.png');
+  }
+  .communication-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3659b5;
+    padding: 20px;
+    color: white;
+  }
+  
+  .left-side-content {
+    flex: 1;
+  }
+  
+  .right-side-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .right-side-content iframe {
+    width: 100%;
+    max-width: 700px;
+    height: 300px;
+  }
+  

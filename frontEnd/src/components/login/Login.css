@@ -1,0 +1,135 @@
+/* App.css */
+
+.nav{
+    padding: 16px 24px;
+}
+
+a {
+    color:#4a6ee0;
+}
+
+.banner{
+    background-image: url("https://static.grammarly.com/assets/files/c4d6ed9e244c0b18a3fc349a42ca1722/swoosh.jpg");
+    background-position: left 0px top 230px;
+    background-repeat: no-repeat;
+    min-height:100vh; 
+}
+
+.error{
+  color:red;
+}
+
+.app {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+    
+    /* min-height: 100vh; */
+  }
+
+  .text{
+    display:flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 18px;
+  }
+
+  .terms > p{
+    font-size: 13px;
+    color:#6D758D;
+    margin-bottom: 0.5rem;
+  }
+  .terms > p > a{
+    font-size: 13px;
+    color:#6D758D;
+
+  }
+  
+  .container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 12px 48px rgba(26,33,52,.11);
+    max-width: 460px;
+    min-width: 320px;
+    padding: 32px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 14px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    text-align: center;
+    font-family: Inter,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-form > input {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #6d758d;
+    border-radius: 4px;
+  }
+  
+  .login-form > button {
+   
+    background: #FC832B;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-items: center;
+    border-radius: 6px;
+    display: flex;
+    height: 48px;
+    justify-content: center;
+    padding: 8px 16px;
+    font-weight: bolder;
+    font-size: 15px;
+  }
+  
+  .login-form > button:hover {
+    background-color: #026b52;
+  }
+
+
+.buttons > button {
+
+    padding: 0.8rem;
+    
+    margin-bottom: 0.5rem;
+    background: none;
+    cursor: pointer;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    border: 1px solid #6d758d;
+    border-radius: 4px;
+    color: #4d536e;
+    outline: none;
+    font-size: 14px;
+    
+   
+}
+
+.item1 {
+    display:flex;
+    /* align-items: center; */
+    gap:15px;
+   
+}
+
+
+
+  

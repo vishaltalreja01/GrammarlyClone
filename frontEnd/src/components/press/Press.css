@@ -1,0 +1,12 @@
+.useCase{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-inline: 36px;
+    gap: 75px;
+    margin-block: 80px;
+    
+}
+.useCase p{
+    margin-block:10px;
+}

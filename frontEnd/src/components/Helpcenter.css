@@ -1,0 +1,37 @@
+.clickable-text {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .clickable-text h5 {
+    padding: 50px;
+    cursor: pointer;
+  }
+  
+ 
+  
+  .clickable-text h5:hover::before {
+    content: "\f17a";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    padding-right: 10px;
+  }
+  .featured-article {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .line {
+    /* flex-grow: 1; */
+    width: 500px;
+    background-color: gray;
+    opacity: 0.1;
+    border-top: 1px;
+    
+  }
+  .article-text {
+    margin: 0 10px;
+    color: gray;
+  }
+  

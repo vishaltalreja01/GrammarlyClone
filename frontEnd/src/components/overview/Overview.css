@@ -1,0 +1,37 @@
+.icons{
+    display:flex;
+    /* gap: 15px; */
+    padding:65px;
+    justify-content: space-around;
+    align-items: center;
+    margin-top:80px;
+}
+
+.tag{
+    width:307px;
+    height:155px;
+    font-size: 20px;
+}
+.feature{
+    width:508px;
+    height:430px;
+    border-radius: 10px;
+
+}
+.multicol{
+    
+    padding:35px;
+    display: grid;
+  grid-gap: 40px;
+justify-content: center;
+  grid-template-columns: auto auto;
+}
+
+.left1_{
+    width:70%;
+    padding-inline-end: 65px;
+}
+.left2_{
+    width:70%;
+    padding-inline: 65px;
+}

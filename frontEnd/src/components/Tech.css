@@ -1,0 +1,31 @@
+.F0u0G-container ul._1GE8N-listContainer {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .F0u0G-container ul._1GE8N-listContainer li._2Pp64-listItem {
+    display: inline-block;
+    width: 33.33%; /* Each list item will take up one-third of the container width */
+    vertical-align: top; /* Align items to the top */
+    box-sizing: border-box; /* Include padding and borders within the width */
+    padding: 10px; /* Add some padding around the list items */
+    text-align: center; /* Center the content horizontally */
+  }
+  
+  .spanitems {
+    text-align: center; /* Align the spans to the center */
+    margin-top: 10px; /* Adjust the margin as per your preference */
+  }
+  
+  ._1gCLm-category,
+  .bPt6Z-title {
+    -webkit-text-size-adjust: 100%;
+    list-style: none;
+    letter-spacing: 0;
+    font: normal 200 18px/32px AkkuratPro,Arial,sans-serif;
+    color: #1c1e29;
+   
+    line-height: 30px;
+     /* Ensures the spans are displayed as block elements */
+  }
+  

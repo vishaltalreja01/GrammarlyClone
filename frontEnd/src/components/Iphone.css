@@ -1,0 +1,152 @@
+.hero{
+    width: auto;
+    display: flex;
+    /* padding: 50px; */
+  align-items: center;
+  justify-content: center;
+ 
+
+}
+.right{
+    width:50%;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width:50%;
+    padding:25px;
+    padding-inline-end: 155px;
+    /* align-items: center; */
+    justify-content: center;
+
+}
+
+.left1{
+    width:70%;
+    padding-inline-end: 185px;
+}
+
+.right1{
+
+    width:30%;
+    
+}
+
+/* .video{
+
+    border-radius: 10px;
+    height: 400px;
+    width: 500px;
+    box-shadow: 0 5px 5px 0 rgba(154,160,185,.05), 0 5px 30px 0 rgba(166,173,201,.22);
+} */
+
+.grid{
+    display: grid;
+    grid-row-gap: 24px;
+    grid-template-columns: 120px 120px;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 40px;
+}
+.social{
+    display:flex;
+    padding: 25px;
+    padding-inline: 120px;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 60px;
+    /* gap:40px; */
+
+}
+.icons{
+    display:flex;
+    /* gap: 15px; */
+    padding:65px;
+    justify-content: space-around;
+    align-items: center;
+    margin-top:80px;
+}
+
+.tag{
+    width:307px;
+    height:155px;
+    font-size: 20px;
+}
+.feature{
+    width:508px;
+    height:430px;
+    border-radius: 10px;
+
+}
+.summaries{
+    padding:85px;
+}
+.left1_{
+    width:70%;
+    padding-inline-end: 65px;
+}
+.left2_{
+    width:70%;
+    padding-inline: 65px;
+}
+
+
+
+
+
+
+.faq {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .questioncontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1000px;
+  margin-top: 30px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.3s; 
+  }
+  
+  .question {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin-left: 20px;
+    width: 95%;
+    border-bottom: 1px solid #e8e8e8;
+  }
+  
+  .question.active {
+    background-color: #e8e8e8;
+    margin-left: -2.5px;
+  }
+  
+  .question-text {
+    font-size: 18px;
+  }
+  
+  .arrow {
+    font-size: 10px;
+    transition: transform 0.3s;
+    margin-right: 20px;
+  }
+
+  
+  .answer {
+    padding: 18px;
+    font-size: 16px;
+ 
+    color: gray;
+  }
+  

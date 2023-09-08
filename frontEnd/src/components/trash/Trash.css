@@ -1,0 +1,25 @@
+.section{
+
+    width:calc(100% - 300px);
+    padding: 55px;
+    background-color: #f6f6f6;
+    position: relative;
+}
+
+.bin{
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    top:30%;
+    left:30%;
+}
+
+.cardParent{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 55px;
+}

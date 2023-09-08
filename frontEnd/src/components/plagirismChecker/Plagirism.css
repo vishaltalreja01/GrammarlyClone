@@ -1,0 +1,17 @@
+.trusted_{
+    /* padding-inline: 0px; */
+    display: flex;
+    justify-content: center;
+}
+
+.tag_{
+    border-bottom: 1px solid rgb(219, 216, 216);
+    border-top: 1px solid rgb(236, 233, 233);
+}
+
+.rightCenter{
+
+    display:flex;
+    justify-content: center;
+    width:40%;
+}

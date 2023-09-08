@@ -1,0 +1,39 @@
+.faculty{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    gap: 35px;
+    font-size: 20px;
+    
+
+}
+
+.trusted{
+    display:flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* padding:55px; */
+    padding-inline:175px;
+}
+
+.logos{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 65px;
+}
+
+.img{
+    display:flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:25px;
+    /* padding:55px; */
+    padding-inline:267px;
+    
+}

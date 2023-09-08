@@ -1,0 +1,185 @@
+/* GrammarlyGo.css */
+
+.center-heading {
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  .center-heading2 {
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+  }
+  
+  .sub-heading {
+    text-align: center;
+    font-size: 16px;
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-weight: bold;
+  }
+  
+  .buttonsgo {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  }
+  
+  .get-early-access {
+    background-color: rgb(7, 21, 16);
+    color: white;
+    border-color: white;
+    border-radius: 5px;
+  }
+  
+  .get-early-access:hover {
+    background-color: rgb(153, 209, 98);
+  }
+  
+  .get-grammarly:hover {
+    background-color: rgb(188, 212, 226);
+  }
+  
+  .get-grammarly,
+  .get-early-access {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 14px;
+  }
+  
+  .video {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    color: aliceblue;
+  }
+  
+  .grammarlyGo-heading {
+    text-align: center;
+    font-size: 48px;
+    margin-top: 170px;
+    font-weight: bold;
+  }
+  
+  .background-div {
+    font-family: inter, sans-serif;
+    color: #fff;
+    background-color: rgb(7, 21, 16);
+    height: 900px;
+    box-sizing: inherit;
+    background-size: 1500px;
+    background-repeat: no-repeat;
+    background-position: bottom -150px center;
+    width: 100%;
+    background-image: url(https://static-web.grammarly.com/cms/master/public/swooshes/grammarlygo.png);
+  }
+  
+  .Personalized {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #171d38;
+    overflow-x: hidden;
+  }
+  
+  .columns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .leftone {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .rightone {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .column1,
+  .column2 {
+    padding: 20px;
+  }
+  
+  .img1 {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: white;
+  } */
+  
+  .lastdiv {
+    font-family: inter, sans-serif;
+    color: #fff;
+    background-color: rgb(7, 21, 16);
+    height: 500px;
+  }
+  
+  .grammarlyGo-headingg {
+    text-align: center;
+    font-size: 48px;
+    /* margin-top: 100px; */
+    font-weight: bold;
+  }
+  
+  .buttonsgoo {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  }
+  .white-background {
+    background-color: white;
+    padding: 40px;
+    margin-top: 40px;
+  }
+  
+  .white-background h2 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: black;
+    text-align: center;
+  }
+  
+  .white-background p {
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-left: 250px;
+    margin-right: 250px;
+    color: black;
+  }
+  
+  .learn-more-button {
+    background-color: rgb(28, 101, 75);
+    color: white;
+    border-color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 14px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 600px;
+  }
+  
+  .learn-more-button:hover {
+    background-color: rgb(23, 86, 64);
+  }

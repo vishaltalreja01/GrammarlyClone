@@ -1,0 +1,62 @@
+.blogHero{
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:55px;    
+}
+
+.imageSection{
+
+    padding-block: 25px;
+    width:707px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 5px 10px rgba(154,160,185,.05), 0 15px 40px rgba(166,173,201,.2);
+}
+
+.imageSection p{
+ 
+    font-size:12px;
+    margin-block:15px;
+
+}
+
+
+.linkSection{
+
+    width:calc(100%-707px);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-inline: 95px;
+
+}
+
+.linkSection p{
+
+    color:#05735a;
+    font-size:12px;
+    font-weight: bold;
+    margin-top:20px;
+
+}
+
+.linkBlog>div a{
+
+    color:black;
+    text-decoration: none;
+
+}
+
+.linkSection  h1{
+
+    margin-bottom:35px;
+}
+.linkSection a{
+
+    
+    font-size:16px;
+    letter-spacing: 1px;
+
+}

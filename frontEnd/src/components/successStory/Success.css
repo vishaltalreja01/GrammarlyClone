@@ -1,0 +1,10 @@
+.lefti{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width:40%;
+    padding:15px;
+    padding-inline-end: 15px;
+    /* align-items: center; */
+    justify-content: center;
+}

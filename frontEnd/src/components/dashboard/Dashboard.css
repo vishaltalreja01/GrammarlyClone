@@ -1,0 +1,97 @@
+.section{
+
+    width:calc(100% - 300px);
+    padding: 55px;
+    background-color: #f6f6f6;
+}
+.search{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+    background: #fff;
+    border:1px solid #ececec;
+    padding: 5px;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.05);
+    
+}
+.inp{
+    background:transparent;
+    border:0;
+    
+}
+.inp:focus{
+   
+        outline:none;
+    
+}
+.staticCard{
+    cursor: pointer;
+    background-color: white;
+    width:140px;
+    height:172px;
+    padding: 12px 15px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    position: relative;
+    padding-block:35px;
+    
+}
+.card{
+    
+    cursor: pointer;
+    background-color: white;
+    width:140px;
+    height:172px;
+    padding: 10px 10px 0;
+    box-shadow: 0 2px 4px rgba(62, 62, 62, 0.15);
+    /* text-align: center; */
+    position: relative;
+    /* padding-block:35px; */
+    
+    
+}
+.card:hover{
+    
+  
+    box-shadow: 0 2px 4px rgba(9, 9, 9, 0.15);
+   
+    
+}
+
+.cards{
+    display:flex;
+    flex-wrap: wrap;
+    gap:35px;
+    margin-top:70px;
+}
+.new{
+   color:gray;
+}
+.new:hover{
+    
+    color:red;
+}
+.upload{
+    color:black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border-top: 1px solid rgba(106, 106, 106, 0.15);
+}
+.uploadS{
+    color:red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border-top: 1px solid rgba(106, 106, 106, 0.15);
+}
+.upload:hover{
+    color:red;
+}
+.uploadS:hover{
+    color:red;
+}
